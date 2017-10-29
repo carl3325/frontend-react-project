@@ -1,1 +1,1 @@
-export default action$ => [];
+export default action$ => action$.take(0);
